@@ -302,6 +302,7 @@ def get_historical_ether_balance(address, blockno):
     }
     response = requests.get(url, params=params)
     return response.json()
+
 if __name__ == "__main__":
     addresses = [
         "0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a",
